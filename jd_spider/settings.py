@@ -25,7 +25,7 @@ ROBOTSTXT_OBEY = False  # 协议改为False
 MONGO_IP = "localhost"
 MONGO_PORT = 27017
 MONGO_DB_NAME = 'f_jd'
-MONGO_URL = "mongodb://admin:admin@139.217.99.231:22022"
+MONGO_URL = "mongodb://admin:admin@IP:Port"
 JDRESULT_COLLECTIONS_NAME = 'jd_result'
 
 
@@ -119,7 +119,7 @@ LOG_LEVEL = 'DEBUG'     # 日志级别
 REDIS_HOST = '127.0.0.1'    # 连接本机
 REDIS_PORT = '6379'   # 端口
 REDIS_PARAMS = {
-    'password': 'pengfeiQDS',
+    'password': 'your password',
     'db': 0
 }   # 密码一般不设置，使用数据0
 
